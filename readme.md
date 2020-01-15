@@ -128,7 +128,7 @@ public class Point : IEquatable<Point>
 
     static bool EqualsInternal(Point left, Point right)
     {
-        return left.X == right.X && left.Y == right.Y && leftt.CustomLogic(right);
+        return left.X == right.X && left.Y == right.Y && left.CustomLogic(right);
     }
 
     public virtual bool Equals(Point right)
